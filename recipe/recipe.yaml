@@ -1,6 +1,6 @@
 context:
   name: doxmlparser
-  version: "1_17_0"
+  version: "1_18_0"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/doxygen/doxygen/archive/refs/tags/Release_${{ version | replace('.', '_') }}.tar.gz
-  sha256: 28199ea88989fc56e302c927ef979596fe9247dd231e767ba6edcdbaa49f78aa
+  sha256: b32a3def78b0b75a2fd74ee6a63fb4a79cb6273fe31a570362e4e1871fa446da
 
 build:
   number: 0
